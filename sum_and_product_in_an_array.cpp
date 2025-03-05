@@ -1,9 +1,9 @@
 //write a function to find the sum and product of all numbers in an array
 #include<iostream>
 using namespace std;
-int findSum(int arr[],int size,int ans){
-    for(int i=0;i<size;i++){
-        ans=ans+arr[i];
+int findSum(int arr[], int size, int ans){
+    for(int i=0; i<size; i++){
+        ans = ans + arr[i];
     }
     return ans;
 }
